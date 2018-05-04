@@ -1,0 +1,28 @@
+{
+  "name": "routing-number-validator",
+  "version": "1.0.0",
+  "description": "Validates the MICR format of an ABA routing number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sveinn/routing-number-validator.git"
+  },
+  "keywords": [
+    "Routing",
+    "Number",
+    "Bank",
+    "Validator",
+    "Validate",
+    "MICR",
+    "ABA"
+  ],
+  "author": "Sveinn Thorarinsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sveinn/routing-number-validator/issues"
+  },
+  "homepage": "https://github.com/sveinn/routing-number-validator#readme"
+}
