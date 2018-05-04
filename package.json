@@ -2,7 +2,11 @@
   "name": "routing-number-validator",
   "version": "1.0.0",
   "description": "Validates the MICR format of an ABA routing number.",
-  "main": "index.js",
+  "main": "dist/routing-number-validator.umd.js",
+  "module": "dist/routing-number-validator.es5.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest"
   },
@@ -24,5 +28,17 @@
   "bugs": {
     "url": "https://github.com/sveinn/routing-number-validator/issues"
   },
-  "homepage": "https://github.com/sveinn/routing-number-validator#readme"
+  "homepage": "https://github.com/sveinn/routing-number-validator#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "jest": "^22.4.3",
+    "lodash.camelcase": "^4.3.0",
+    "regenerator-runtime": "^0.11.1",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-sourcemaps": "^0.4.2"
+  }
 }
