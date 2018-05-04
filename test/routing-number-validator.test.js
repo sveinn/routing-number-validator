@@ -1,4 +1,4 @@
-import Validator from '../src/routing-number-validator';
+import Validator from '../src/routing-validator';
 
 describe('RoutingValidator', () => {
   it('has a getter for the routing number', () => {

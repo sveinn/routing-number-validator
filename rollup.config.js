@@ -2,18 +2,18 @@ import sourceMaps from 'rollup-plugin-sourcemaps';
 import babel from 'rollup-plugin-babel';
 import camelCase from 'lodash.camelcase';
 
-const libraryName = 'routing-number-validator';
+const libraryName = 'routing-validator';
 
 export default {
   input: `src/${libraryName}.js`,
   output: [
     {
-      file: 'dist/routing-number-validator.umd.js',
+      file: 'dist/routing-validator.umd.js',
       name: camelCase(libraryName),
       format: 'umd'
     },
     {
-      file: 'dist/routing-number-validator.es5.js',
+      file: 'dist/routing-validator.es5.js',
       format: 'es'
     }
   ],

@@ -1,12 +1,10 @@
 {
-  "name": "routing-number-validator",
+  "name": "routing-validator",
   "version": "1.0.1",
   "description": "Validates the MICR format of an ABA routing number.",
-  "main": "dist/routing-number-validator.umd.js",
-  "module": "dist/routing-number-validator.es5.js",
-  "files": [
-    "dist"
-  ],
+  "main": "dist/routing-validator.umd.js",
+  "module": "dist/routing-validator.es5.js",
+  "files": ["dist"],
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "test": "jest"
